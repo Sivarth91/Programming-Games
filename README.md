@@ -9,3 +9,5 @@ This games are in command line for play, do :
 php guestNumber.php
 php palindrome.php
 ```
+
+And now, play !
