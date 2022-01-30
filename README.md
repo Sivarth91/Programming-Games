@@ -5,5 +5,6 @@ There is 2 games, programmed in PHP :
 - a guest number
 
 This games are in command line for play, do :
-```php + ${file}
+```php palindrome.php
+   php guestNumber.php
 ```
