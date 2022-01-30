@@ -7,6 +7,4 @@ There is 2 games, programmed in PHP :
 This games are in command line for play, do :
 ```php palindrome.php
 ```
-or 
-```php guestNumber.php
-```
+or
