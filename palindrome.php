@@ -1,9 +1,9 @@
 <?php 
 
-$mot = readline("Enter a word :");
-$reverse = strtolower(strrev($mot));
+$word = readline("Enter a word :");
+$reverse = strtolower(strrev($word));
 
-if (strtolower($mot) === $reverse) {
+if (strtolower($word) === $reverse) {
     echo("This word is a palindrome");
 } else {
     echo("This word is not a palindrome");
@@ -13,13 +13,13 @@ if (strtolower($mot) === $reverse) {
 /* other version, more precise
 
 while(true) {
-    $mot = strtolower(readline("Enter a word : "));
+    $word = strtolower(readline("Enter a word : "));
 
-    if ($mot === "end") {
+    if ($word === "end") {
         exit("Programme's end");
     }
-    $reverse = strtolower(strrev($mot));
-    if (strtolower($mot) === $reverse) {
+    $reverse = strtolower(strrev($word));
+    if (strtolower($word) === $reverse) {
         exit("Bravo, this word is a palindrome !");
     } else {
         echo "This word is not a palindrome \n";
