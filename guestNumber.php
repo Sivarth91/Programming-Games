@@ -3,7 +3,6 @@
 $isNumber = false;
 
 echo "You need to find a number between 0 and 150 \n";
-// 
 
 while (!$isNumber) {
     $response = readline("Enter a number:");
