@@ -20,3 +20,4 @@ while (!$isNumber) {
         echo "You need to give a number ! \n";
     }
 }
+
